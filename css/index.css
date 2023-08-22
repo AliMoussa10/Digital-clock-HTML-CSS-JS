@@ -1,0 +1,33 @@
+/* CSS */
+body {
+    position: absolute;
+    transform: translate(-50%, -50%);
+    margin: 0 auto;
+    top: 50%;
+    left: 50%;
+}
+
+.container {
+    background: rgba(0, 0, 200, .4);
+    height: 20vh;
+    width: 20rem;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    padding: 15px 10px;
+    border-radius: 8px;
+}
+
+.date {
+    font-weight: 200;
+    font-size: large;
+    color: #fff;
+    margin: 0 0 10px 0;
+}
+
+.time {
+    font-weight: 600;
+    font-size: 30px;
+
+}
